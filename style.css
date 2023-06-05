@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    list-style: none;
+}
+
+button {
+    padding: 20px 30px;
+    background: tomato;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+    border: none;
+}
+
+button#clear {
+    background-color: grey;
+    color: black;
+    margin: 40px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+button:focus {
+    outline: none;
+}
+
+
+.container {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.mesaj {
+    background-color: rebeccapurple;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 999px;
+    margin: 0.5rem;
+    color: #fff;
+}
